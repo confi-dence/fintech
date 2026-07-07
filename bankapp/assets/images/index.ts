@@ -1,0 +1,20 @@
+export const ImageIconPack = {
+  Splash_screen: require("@/assets/images/splashScreen-icon.png"),
+  onboarding_1: require("@/assets/images/onboarding-1.png"),
+  onboarding_2: require("@/assets/images/onboarding-2.png"),
+  onboarding_3: require("@/assets/images/onboarding-3.png"),
+  eye_show_up: require("@/assets/images/eye-show-up.png"),
+  Lock_Password: require("@/assets/images/Lock-Password.png"),
+  email_mail: require("@/assets/images/email-mail-letter.png"),
+  phon_call: require("@/assets/images/phonCall.png"),
+  send: require("@/assets/images/send.png"),
+  search: require("@/assets/images/search.png"),
+  people1: require("@/assets/images/people1.png"),
+  Recieve: require("@/assets/images/Recieve.png"),
+  Ellipse_1: require("@/assets/images/Ellipse-1.png"),
+  Ellipse_2: require("@/assets/images/Ellipse-2.png"),
+  card: require("@/assets/images/card.png"),
+  logOut: require("@/assets/images/logOut.png"),
+  TransactonSuccessfully: require("@/assets/images/TransactonSuccessfully.png"),
+};
+export type ImageIconPackType = keyof typeof ImageIconPack;
